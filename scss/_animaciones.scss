@@ -1,0 +1,31 @@
+// animacion_ 1ro declarar c keyframe, dsp porcentuar
+@keyframes animacion-logo {
+    0% {
+        transform:translate(20px, -10px);
+    }
+    20% {
+        transform:scale(1,1);
+    }
+    40% {
+        transform:rotate(320deg);
+    }
+    60% {
+        transform: scale(1,1);
+    }
+    80% {
+        transform: skew(50deg,30deg);
+    }
+    100% {
+        transform: translate(0,0);
+    }
+    
+
+}
+
+#fotoHome {
+    animation-name: animacion-logo;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 1s;
+
+}
