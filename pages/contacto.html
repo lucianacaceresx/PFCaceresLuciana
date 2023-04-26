@@ -8,11 +8,11 @@
     <link rel="shortcut icon" href="../imagenes/logonutricion.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
   </head>
   <body>
     <header>
-      <div class="container">
       <nav id= "barraNavegacion" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Asesoramiento Nutricional</a>
@@ -55,19 +55,31 @@
                   </style>
                 </head>
             </p>
-            <input type="text" name="nombre" id="nombre" placeholder="Decime tu nombre"><br/>
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido"><br/>
-            <input type="number" placeholder="Decime tu edad"><br/>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre"><br/>
+            <label for="apellido">Apellido: </label>
+            <input type="text" name="apellido" placeholder="Ingresa tu apellido"><br/>
+            <label for="Edad">Edad: </label>
+            <input type="number" placeholder="Ingresa tu edad"><br/>
             <div>Decime tu peso
                 <select name="lado" id="lado">
                     <option value="a">-50kg</option>
-                    <option value="ab">+50kg</option>
+                    <option value="b">+50kg</option>
+                    <option value="c">+60kg</option>
+                    <option value="d">+70kg</option>
+                    <option value="e">+80kg</option>
+                    <option value="f">+90kg</option>
+                    <option value="g">+100kg</option>
+                    <option value="h">+110kg</option>
+                    <option value="i">+120kg</option>
+                    <option value="j">+130kg</option>
                 </select>
             </div>
             <div> Que plan queres?
                 <div>1<input type="radio" name="uno" value="uno"></div>
                 <div>2<input type="radio" name="dos" value="dos"></div>
+                <div>3<input type="radio" name="tres" value="tres"></div>
+                <div>4<input type="radio" name="cuatro" value="cuatro"></div>
             </div>
             <div>
                 <input type="submit" value="ENVIAR">
