@@ -1,15 +1,20 @@
 header {
-    background-color: #fff;
-    padding: 30px;
-  }
-  
+  background-color: #fff;
+  padding: 30px;
+}
 
-  header .logo {
-    max-width: 100%;
-    height: auto;
-   
-  }
 
-  #barraNavegacion {
-    background-image: linear-gradient(to bottom, rgb(88, 86, 90), white);
-  }
+header .logo {
+  max-width: 100%;
+  height: auto;
+}
+
+#barraNavegacion {
+  background-image: linear-gradient(to bottom, rgb(88, 86, 90), white);
+  position: fixed;
+  margin: -10px;
+}
+
+.container-fluid {
+  position: auto
+}

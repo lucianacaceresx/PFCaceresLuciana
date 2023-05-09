@@ -11,6 +11,9 @@
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 #footerinicio {
@@ -18,21 +21,10 @@ body {
 }
 
 footer {
-  background-color: #f8f9fa;
-  padding: 20px;
-  text-align: center;
-}
-
-footer {
   background-color: #ccc;
   color: #fff;
   text-align: center;
   padding: 20px;
-}
-
-footer img {
-  max-width: 100%;
-  height: auto;
 }
 
 header {
@@ -47,6 +39,12 @@ header .logo {
 
 #barraNavegacion {
   background-image: linear-gradient(to bottom, rgb(88, 86, 90), white);
+  position: fixed;
+  margin: -10px;
+}
+
+.container-fluid {
+  position: auto;
 }
 
 img.img-fluid {
@@ -59,10 +57,25 @@ img.img-fluid {
 
 main {
   padding: 20px;
+  flex: 1;
+}
+
+main li {
+  font-weight: bold;
 }
 
 main p {
   margin-bottom: 20px;
+}
+
+#titular {
+  text-align: center;
+}
+
+.container img.text-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav {
